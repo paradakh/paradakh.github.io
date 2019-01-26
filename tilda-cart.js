@@ -1,9 +1,9 @@
 function txtlByu(name, color, size, printNode) {
   const product = {
-    amount: 1500,
+    amount: 2,
     img: "",
     name: name,
-    price: 1500,
+    price: 2,
     quantity: 1,
     ts: Date.now(),
     options: [
