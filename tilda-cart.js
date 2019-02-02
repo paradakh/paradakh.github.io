@@ -1,4 +1,4 @@
-function txtlByu(name, color, size, printNode) {
+function txtlByu(name, color, size, svg) {
   const product = {
     amount: 2,
     img: "",
@@ -20,7 +20,7 @@ function txtlByu(name, color, size, printNode) {
     ]
   };
 
-  document.querySelector('input[name="Mamarama"]').value = printNode.outerHTML;
+  document.querySelector('input[name="Mamarama"]').value = svg;
 
   tcart__addProduct(product);
 }
