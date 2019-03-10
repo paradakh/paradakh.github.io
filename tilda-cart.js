@@ -1,9 +1,9 @@
 function txtlByu(name, color, size, svg) {
   const product = {
-    amount: 2,
+    amount: window.doshirakPrice,
     img: "",
     name: name,
-    price: 2,
+    price: window.doshirakPrice,
     quantity: 1,
     ts: Date.now(),
     options: [
