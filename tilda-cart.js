@@ -20,7 +20,5 @@ function txtlByu(name, color, size, svg) {
     ]
   };
 
-  document.querySelector('input[name="Mamarama"]').value = svg;
-
   tcart__addProduct(product);
 }
